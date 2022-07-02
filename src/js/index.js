@@ -1,12 +1,23 @@
-//import react into the bundle
 import React from "react";
 import ReactDOM from "react-dom";
-
-// include your styles into the webpack bundle
 import "../styles/index.css";
+import Wallpapper from "../js/walpapper.jsx";
 
-//import your own components
-import Home from "./component/home.jsx";
 
-//render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+
+
+
+
+let btn = document.querySelector("#btn")
+let text = document.querySelector("#text")
+
+function disable(){ 
+    btn.remove();
+    text.remove();
+    /*btn.style.display = "none";
+    text.style.display = "none";*/
+}
+
+btn.addEventListener("click", disable())
+
+ReactDOM.render(<Wallpapper />, document.querySelector("#myGame"));
