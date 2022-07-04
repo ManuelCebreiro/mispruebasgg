@@ -74,12 +74,20 @@ body{
 .bodyCard{
     width:14vh;
     height:24vh;
-    margin: 1vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
     border: .6vh solid #25685f;
     background: url(https://thumbs.dreamstime.com/b/fondo-que-se-estremece-del-arte-pixel-104198299.jpg);
     background-size: cover;
     animation: infinite resplandorAnimationCard 2s;
-   
- 
+}
+
+.onCard{
+   font-size: 12vh;
+   text-align: center;
+   margin: auto;
    
 }
+
