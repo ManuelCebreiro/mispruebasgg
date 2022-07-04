@@ -1,7 +1,8 @@
 import React from "react";
-import Card from "../js/card.jsx";
+import Card from "./card.jsx";
 
-let arrCards = [<Card /*number:12 letra:A*//>, <Card/>, <Card/>, <Card/>, <Card/>, <Card/>, <Card/>, <Card/>, <Card/>, <Card/>];
+
+let arrCards = [<Card/>, <Card/>, <Card/>, <Card/>, <Card/>, <Card/>, <Card/>];
 
 const Wallpapper = (props) => {
     return (
@@ -11,8 +12,6 @@ const Wallpapper = (props) => {
             <div class="row d-flex justify-content-center">{arrCards}</div>
             <div class="row d-flex justify-content-center">{arrCards}</div>
             <div class="row d-flex justify-content-center">{arrCards}</div>
-          
-
 
     </div >
     )
